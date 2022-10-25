@@ -1,0 +1,13 @@
+#cloud-config
+repo-update: true
+repo-upgrade: all
+
+packages:
+    - apache2
+    - tomcat
+
+runcmd:
+    - systemctl start apache2
+    - systemctl start tomcat
+    - mkdir /home/ftsadmin/hello
+    - mkdir folder_test
