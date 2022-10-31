@@ -9,7 +9,7 @@ variable "jumpbox-password" {
 
 variable "rg-name" {
   type = string
-  default = "1-2ad15f29-playground-sandbox"
+  default = "1-e75d88cd-playground-sandbox"
   description = "name of the resource group playground provide"
 }
 
